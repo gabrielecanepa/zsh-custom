@@ -1,4 +1,5 @@
 #!/bin/zsh
+# profile.plugin https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins
 
 CUT="\r\033[1A\033[0K"
 
@@ -53,7 +54,7 @@ get-input () {
     tput cnorm # show cursor
   }
 
-  echo -n "> "
+  echo "> "
   read -r $1
 
   case $1 in
@@ -125,7 +126,7 @@ ln-dotfiles () {
     if [ ! $target ] || [ "$target" != "$WORKING_DIR/dotfiles/$filename" ]; then
       case $filename in
         # Skip
-        .DS_Store|.git|.github|.iterm2)
+        .DS_Store|.git|.github|.iterm2|README.md)
           ;;
          # Globals
         .gitconfig)

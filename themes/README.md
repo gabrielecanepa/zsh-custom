@@ -1,16 +1,14 @@
-# Themes
+## Themes
 
-## [Squanchy ⚡️](./squanchy.zsh-theme)
+#### [`squanchy`](https://github.com/gabrielecanepa/zsh-custom/blob/master/themes/squanchy.zsh-theme)
 
-![](../.screens/squanchy1.png)
+![](https://github.com/gabrielecanepa/dotfiles/blob/master/images/squanchy1.png?raw=true)
 
-![](../.screens/squanchy2.png)
+![](https://github.com/gabrielecanepa/dotfiles/blob/master/images/squanchy2.png?raw=true)
 
-### Notes
+**N.B.** You need a [Nerd Font](https://www.nerdfonts.com/font-downloads) and the `rbenv` and `nvm` plugins to display the icons:
 
-You need a [Nerd Font](https://www.nerdfonts.com/font-downloads) and the `rbenv` and `nvm` plugins to display the icons:
-
-```sh
+```shell
 # ~/.zshrc
 ZSH_THEME="squanchy"
 

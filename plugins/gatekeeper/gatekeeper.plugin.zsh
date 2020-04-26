@@ -1,4 +1,5 @@
 #!/bin/zsh
+# profile.plugin https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins
 
 gatekeeper () {
   case $1 in

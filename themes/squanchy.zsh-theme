@@ -1,4 +1,4 @@
-# ⚡️ Squanchy - https://github.com/gabrielecanepa/zsh-custom/themes
+# ⚡️ Squanchy - https://github.com/gabrielecanepa/zsh-custom/blob/master/themes
 
 # Tabs
 ZSH_THEME_TERM_TITLE_IDLE="%n@%m: %~"

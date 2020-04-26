@@ -1,8 +1,9 @@
 ## Overview
 
-<!-- *Required*: why is this important/necessary? -->
+<!-- **Required** -->
+Why is this important/necessary?
 
-<!-- Optional:
+<!-- *Optional*
 ## Details
 
 List the key features/highlights as bullet points

@@ -1,4 +1,5 @@
 #!/bin/zsh
+# node-modules.plugin https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins
 
 CUT="\r\033[1A\033[0K"
 

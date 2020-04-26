@@ -6,13 +6,13 @@ My custom Zsh plugins and themes 🤓
 
 - **[Usage](#usage)**
 
-- **[Plugins](./plugins)**
-  - [`profile`](./profile/profile.plugin.zsh)
-  - [`gatekeeper`](./gatekeeper/gatekeeper.plugin.zsh)
-  - [`node-modules`](./node-modules/node-modules.plugin.zsh)
+- **[Plugins](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins)**
+  - [`profile`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins#profile)
+  - [`gatekeeper`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins#gatekeeper)
+  - [`node-modules`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins#node-modules)
 
-- **[Themes](./themes)**
-  - [Squanchy](./themes)
+- **[Themes](https://github.com/gabrielecanepa/zsh-custom/blob/master/themes)**
+  - [`squanchy`](https://github.com/gabrielecanepa/zsh-custom/blob/master/themes#squanchy)
 
 - **[Contributing](#contributing)**
 
@@ -21,9 +21,9 @@ My custom Zsh plugins and themes 🤓
 Clone the extension you want to your `$ZSH_CUSTOM`:
 
 ```shell
-ext_type="theme" # TODO: add the correct type
-ext_name="squanchy" # TODO: add the wanted ext name
-ext_path="${ext_type}s/${ext_name}.zsh$([ $ext_type = theme ] && echo -${ext_type} || echo .plugin.zsh)"
+ext_name="squanchy" # TODO: change with the wanted extension
+ext_type="theme" # TODO: use the correct type
+ext_path="${ext_type}s/${ext_name}$([ $ext_type = theme ] && echo .zsh-theme || echo .plugin.zsh)"
 curl https://raw.githubusercontent.com/gabrielecanepa/zsh-custom/master/$ext_path > "$ZSH_CUSTOM/$ext_path"
 ```
 
@@ -46,8 +46,8 @@ plugins=(
 
 ## Contributing
 
-If you want to help improve the project, please fork the repository and [create a new pull request](./fork) 🙏
+If you want to help improve the project, please [fork the repository](https://github.com/gabrielecanepa/zsh-custom/fork) and [create a new issue](https://github.com/gabrielecanepa/zsh-custom/issues/new/choose) or pull request 🙏
 
 ## License
 
-[MIT](../dotfiles/LICENSE)
+[MIT](https://github.com/gabrielecanepa/.github/blob/master/LICENSE)
