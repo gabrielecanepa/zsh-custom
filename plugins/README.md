@@ -14,4 +14,4 @@ Fixes in most cases the `App is damaged and can’t be opened. You should move i
 
 #### [`node-modules`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins/node-modules/node-modules.plugin.zsh) 👀
 
-The modules stored in `node_modules` occupy a lot of space in unused projects, this plugin can list and remove them.
+The modules stored in `node_modules` folder can occupy a lot of space in unused projects. With this plugin you can list these folders by size and remove them.
