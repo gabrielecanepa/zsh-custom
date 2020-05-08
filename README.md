@@ -1,4 +1,4 @@
-<!-- TODO: add instructions to run shellcheck -->
+<!-- TODO: add instructions to run shellcheck, add license file, make an unique readme? -->
 
 # Zsh Custom
 
@@ -6,13 +6,13 @@ My custom Zsh plugins and themes 🤓
 
 - **[Usage](#usage)**
 
-- **[Plugins](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins)**
-  - [`profile`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins#profile)
-  - [`gatekeeper`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins#gatekeeper)
-  - [`node-modules`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins#node-modules)
+- **[Plugins](plugins)**
+  - [`profile`](plugins#profile)
+  - [`gatekeeper`](plugins#gatekeeper)
+  - [`node-modules`](plugins#node-modules)
 
-- **[Themes](https://github.com/gabrielecanepa/zsh-custom/blob/master/themes)**
-  - [`squanchy`](https://github.com/gabrielecanepa/zsh-custom/blob/master/themes#squanchy)
+- **[Themes](themes)**
+  - [`squanchy`](themes#squanchy)
 
 - **[Contributing](#contributing)**
 
@@ -30,8 +30,6 @@ curl https://raw.githubusercontent.com/gabrielecanepa/zsh-custom/master/$ext_pat
 Activate the new plugin/theme in your `~/.zshrc`:
 
 ```shell
-# ~/.zshrc
-
 ZSH_THEME="squanchy"
 
 plugins=(
@@ -46,7 +44,7 @@ plugins=(
 
 ## Contributing
 
-If you want to help improve the project, please [fork the repository](https://github.com/gabrielecanepa/zsh-custom/fork) and [create a new issue](https://github.com/gabrielecanepa/zsh-custom/issues/new/choose) or pull request 🙏
+Please [fork the repository](./fork) and [create a new issue](./issues/new/choose) or pull request 🙏
 
 ## License
 
