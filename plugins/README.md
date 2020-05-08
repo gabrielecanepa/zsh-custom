@@ -1,12 +1,12 @@
 ## Plugins
 
-For each plugin, you can print an help message with `<plugin> help`.
+For each plugin, print an help message with `<plugin-name> help`.
 
 #### [`profile`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins/profile/profile.plugin.zsh) 👤
 
-A powerful plugin to manage your local shell profile and configuration files.
+A powerful plugin to manage your shell profile and configuration files.
 
-**N.B.** To use this plugin you must have a `dotfiles` folder in the specified `Working directory`. The script will create a symbolic link in the right system folder for each file in this repository (check the supported formats [here](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins/profile/profile.plugin.zsh#L126-L159)).
+**N.B.** To use this plugin you must have a `dotfiles` folder in the specified `Working directory`. The script will create a symbolic link in the right system folder for each file you place in this folder (check the supported formats [here](profile/profile.plugin.zsh#L126-L159)).
 
 #### [`gatekeeper`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins/gatekeeper/gatekeeper.plugin.zsh) 🔓
 
