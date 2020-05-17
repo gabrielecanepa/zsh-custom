@@ -1,5 +1,6 @@
 ---
-name: Bug report 🚨
+name: 🚨
+about: Report a bug
 ---
 
 ## Expected behavior
