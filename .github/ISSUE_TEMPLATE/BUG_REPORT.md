@@ -1,6 +1,5 @@
 ---
-name: Bug Report
-about: Create a report to help us improve the project
+name: Bug report 🚨
 ---
 
 ## Expected behavior
