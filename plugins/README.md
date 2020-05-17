@@ -10,8 +10,10 @@ A powerful plugin to manage your shell profile and configuration files.
 
 #### [`gatekeeper`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins/gatekeeper/gatekeeper.plugin.zsh) 🔓
 
-Fixes in most cases the `App is damaged and can’t be opened. You should move it to the Trash` error on macOS by disabling Gatekeeper, a macOS security feature blocking the installation of applications downloaded from unidentified developers.
+Fixes in most cases the `App is damaged and can’t be opened. You should move it to the Trash` error message by disabling Gatekeeper, a macOS security feature blocking the installation of applications downloaded from unidentified developers.
 
 #### [`node-modules`](https://github.com/gabrielecanepa/zsh-custom/blob/master/plugins/node-modules/node-modules.plugin.zsh) 👀
 
-The modules stored in `node_modules` folder can occupy a lot of space in unused projects. With this plugin you can list these folders by size and remove them.
+The modules stored in your `node_modules` folders can take a lot of space for unused projects. This small script lists the [Node.js](nodejs.org) modules by size and deletes them.
+
+@todo 
