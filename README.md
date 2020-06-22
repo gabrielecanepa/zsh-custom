@@ -9,7 +9,7 @@ My custom Zsh plugins and themes 🤓
 - **[Plugins](plugins)**
   - [`profile`](plugins#profile)
   - [`gatekeeper`](plugins#gatekeeper)
-  - [`node-modules`](plugins#node-modules)
+  - [`node_modules`](plugins#node-modules)
 
 - **[Themes](themes)**
   - [`squanchy`](themes#squanchy)
