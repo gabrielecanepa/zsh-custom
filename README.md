@@ -1,7 +1,5 @@
 # Zsh Custom
 
-My custom Zsh plugins and themes.
-
 - **[Usage](#usage)**
 
 - **[Plugins](#plugins)**
