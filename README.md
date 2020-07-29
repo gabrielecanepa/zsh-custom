@@ -16,18 +16,7 @@ My custom Zsh plugins and themes.
 
 ## Usage
 
-Clone the extension you want to your `$ZSH_CUSTOM`:
-
-```shell
-# TODO: change with the name of the wanted extension
-ext_name="squanchy"
-# TODO: use the correct type (plugin or theme)
-ext_type="theme"
-ext_path="${ext_type}s/${ext_name}/${ext_name}$([ $ext_type = theme ] && echo .zsh-theme || echo .plugin.zsh)"
-curl https://raw.githubusercontent.com/gabrielecanepa/zsh-custom/master/$ext_path > "$ZSH_CUSTOM/$ext_path"
-```
-
-Activate the new plugin/theme in your `~/.zshrc`:
+Add the extension you want to your `$ZSH_CUSTOM` and activate it in your `~/.zshrc`:
 
 ```shell
 ZSH_THEME="squanchy"
