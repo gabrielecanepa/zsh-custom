@@ -1,6 +1,6 @@
 # Zsh Custom
 
-My custom Zsh plugins and themes 🤓
+My custom Zsh plugins and themes.
 
 - **[Usage](#usage)**
 
@@ -44,7 +44,7 @@ plugins=(
 
 ## Contributing
 
-Please [fork the repository](./fork) and [create a new issue](./issues/new/choose) or pull request 🙏
+Please [fork the repository](./fork) and [create a new issue](./issues/new/choose) or pull request.
 
 ## License
 
