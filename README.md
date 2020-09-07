@@ -24,7 +24,7 @@ ZSH_THEME="squanchy"
 plugins=(
   # ...
   gatekeeper
-  node-modules
+  node_modules
   profile
   # ...
   themes # use it to switch theme with `theme <theme-name>`
